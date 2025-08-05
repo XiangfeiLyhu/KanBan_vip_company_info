@@ -14,8 +14,9 @@ pip install -r requirements.txt
 ```bash
 python app_updated_final2.py
 ```
+### 4. 上传Book1.xlsx
 
-### 4. 访问系统
+### 5. 访问系统
 打开浏览器访问：http://localhost:5001
 
 ## ✨ 功能
