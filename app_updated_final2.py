@@ -21,7 +21,7 @@ warnings.filterwarnings('ignore')
 import sys
 sys.path.append('/home/ubuntu')
 from updated_data_processor_new import UpdatedDataProcessor
-from honor_statistics_generator import HonorStatisticsGenerator
+#from honor_statistics_generator import HonorStatisticsGenerator
 
 
 # 图表生成相关导入
