@@ -12,13 +12,13 @@ pip install -r requirements.txt
 
 ### 3. 运行完整版系统
 ```bash
-python app_full.py
+python app_updated_final2.py
 ```
 
 ### 4. 访问系统
-打开浏览器访问：http://localhost:5000
+打开浏览器访问：http://localhost:5001
 
-## ✨ 新增功能
+## ✨ 功能
 
 ### Excel文件上传
 - 支持 .xlsx 和 .xls 格式
@@ -26,12 +26,22 @@ python app_full.py
 - 自动数据解析和验证
 - 智能评分计算
 
-### 图表生成
-- 雷达图：四大类别评分对比
-- 评分分解图：当前得分vs满分对比
-- 环形图：总分完成度展示
+### 查看VIP企业基本信息
+- 企业简介
+- 企业亮点
+- 领先地位
+- 产业板块
+- 主营产品
 
-### PDF报告导出
+### 查看VIP企业参展信息
+- 企业标识
+- VIP展区产品情况
+
+### 图表生成
+- 雷达图：五大类别评分对比
+
+
+### PDF报告导出(未完善）
 - 专业多页报告
 - 自动嵌入图表
 - 完整企业信息展示
@@ -39,10 +49,8 @@ python app_full.py
 ## 📁 文件结构
 ```
 完整版本/
-├── app_full.py          # Flask应用主文件
-├── data_processor.py    # Excel数据处理模块
-├── chart_generator.py   # 图表生成模块
-├── pdf_generator.py     # PDF报告生成模块
+├── app_updated_final2.py          # Flask应用主文件
+├── updated_data_processor_new.py    # Excel数据处理模块
 ├── requirements.txt     # 依赖包列表
 └── README.md           # 使用说明
 ```
@@ -76,9 +84,10 @@ python app_full.py
 
 ## 🎯 评分系统
 
-- **市场价值**：满分2分（财富500强、制造业500强）
-- **高新技术**：满分3分（独角兽、制造业冠军、高新企业）
-- **绿色发展**：满分4分（绿色制造相关认证）
+- **市场价值**：满分6分（财富500强、制造业500强）
+- **研发创新**：满分12分（独角兽、制造业冠军、高新企业）
+- **智能制造**：：满分6分
+- **绿色制造**：满分8分（绿色制造相关认证）
 - **信用水平**：满分4分（信用评级相关）
 
 ## 💡 注意事项
